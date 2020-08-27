@@ -1,0 +1,1315 @@
+
+@font-face {
+    font-family: 'magielblack';
+	src: url('fonts/Magiel-Black.ttf'); 
+	src: url('fonts/Magiel-Black.otf');
+	src: url('fonts/Magiel-Black.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lombard';
+    src: url('fonts/Lombard-regular.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tagger';
+    src: url('fonts/Tagger-Regular.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rewir';
+    src: url('fonts/Rewir-Light.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cyrulikStencil';
+    src: url('fonts/Cyrulik-Stencil.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cyrulikSharp';
+    src: url('fonts/Cyrulik-Sharp.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Motor';
+    src: url('fonts/Motor.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{box-sizing: border-box}
+
+
+body {
+	margin: 0;
+}
+
+h1 {
+	line-height: 1;
+	margin: 0;
+	font-family: 'magielblack', sans-serif;
+	font-weight: normal;
+}
+
+
+
+h3 {
+	color: black;
+  	font-size: 24px;
+  	margin-top: 20px;
+}
+
+
+a {	
+	transition: all 0.7s ease-in-out;
+	color: inherit;
+}
+
+
+header p {
+	font-family: 'futura-pt';
+	text-transform: none;
+	color: #d68a00;
+	bottom: .5em;
+	line-height: 160%;
+	font-size: 3em;
+	position: absolute;
+	text-align: center;
+	transform-origin: 0 0;
+}
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 4;
+	display: inline-block;
+  }
+
+  .navbar ul {
+	list-style-type: none;
+	display: none;
+	/* display: inline-block; */
+  }
+
+ 
+
+  
+  
+  .nav-link {
+	font-family: 'futura-pt', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	
+  }
+  
+  .nav-link:hover {
+	background: #d68a00;
+	color: white;
+	display: inline-block;
+
+	}
+
+	
+	.social-menu a {
+		display: inline-block;
+		width: 30px;
+		vertical-align: middle;	
+		margin-top: 7px;
+	}
+
+
+
+	.audio-player button.play {
+		background: #d68a00;
+		color: #fff;
+		position: relative;
+		border: none;
+		outline: none;
+		width: 28px;
+		height: 18px;
+		font-size: 12px;
+		margin-right: 3px;
+		
+}
+
+
+	.logo-pic {
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+		vertical-align: middle;
+		margin: 10px;
+		
+		background: url("img/logo_hanba2.svg") no-repeat;
+	}
+	.logo-pic:hover {
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+		vertical-align: middle;
+		margin: 10px;
+		background: url("img/logo_hanba.svg") no-repeat;
+	}
+
+	
+.waves {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	
+
+}
+
+.hanba_cover2 {
+	margin-bottom: 2em;
+}
+
+.oficjalneFilmy h2 {
+	margin-top: 0;
+}
+	
+	/*	
+	.audio-player {
+		padding-left: 110px;
+		padding-top: 5px;
+	}
+
+	.audio-player button.play {
+			width: 60px;
+			height: 60px;
+			
+			border: 0;
+			background: #0c2231;
+			color: white;
+			font-size: 40px;
+			border-radius: 100%;
+			cursor: pointer; 
+	}
+
+*/
+
+/* header span {
+	color: #d68a00;
+	position: absolute;
+	bottom: 40px;
+	font-family: 'rewir';
+	font-size: 14px;
+	transform: rotate(-90deg);
+	  left: 30px;
+	  bottom: 15px;
+	  transform-origin: 0 0;
+  } */
+
+
+header .tagline {
+	color: white;
+	text-transform: lowercase;
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 4em;
+}
+
+header {
+	margin-bottom: 0;
+}
+
+/* header {
+	height: 95vh;
+	background-image: url("img/baner_hanba.svg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-bottom: 30px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  	position: relative;
+  	overflow: hidden;
+} */
+
+
+.line5 {
+	padding-bottom: 1.8em;
+}
+
+.line5x {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.figcaption {
+	font-family: 'rewir';
+	font-size: .7em;
+}
+
+
+.menago {
+  background: #d68a00;
+  text-align: center;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.menago p {
+	color: white;
+	font-family: 'cyrulikSharp';
+	font-size: 7em;
+	margin: 0;
+
+}
+
+.menago h4 {
+	font-family: 'futura-pt';
+	color: white;
+	font-size: 2.5em;
+	margin: 0;
+	
+	
+}
+
+.menago h5 {
+	font-family: 'futura-pt';
+	color: white;
+	font-size: 1em;
+}
+
+.menago2 {
+	
+	text-align: center;
+	/* padding-top: 7em; */
+	padding-bottom: 5em;
+  }
+  
+  .menago2 p {
+	  color: black;
+	  font-family: 'cyrulikSharp';
+	  font-size: 7em;
+	  margin: 0;
+  
+  }
+  
+  .menago2 h4 {
+	  font-family: 'futura-pt';
+	  color: black;
+	  font-size: 2.5em;
+	  margin: 0;
+	  
+	  
+  }
+  
+  .menago2 h5 {
+	  font-family: 'futura-pt';
+	  color: black;
+	  font-size: 1em;
+	  margin: 5px;
+  }
+
+  .menago2 h2 {
+	color: black;
+	font-family: 'cyrulikSharp';
+	font-size: 2em;
+	margin: 5px;
+
+  }
+
+  .menago2 h3 {
+	color: black;
+	font-family: 'rewir';
+	font-size: 1em;
+	margin: 5px;
+	
+  }
+
+  .antena {
+	  color: black;
+  }
+
+
+/* stopka !!!!!!!!!!!!!!!!!!!!! */
+.footer-distributed{
+	background-color: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding-top: 0.7em;
+  	padding-bottom: 0.7em;
+	padding: 55px 50px;
+	
+}
+
+.logo-footer {
+	width: 80px;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: 'magielblack';
+	font-size: 3.5em;
+	margin: 0;
+	
+	
+}
+
+
+.footer-contact {
+	font-family: 'futura-pt';
+	font-size: 1em;
+	color: white;
+	
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-family: 'rewir';
+	font-size: .7em;
+	padding-top: 4em;
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 40%;
+	
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  white;
+	text-decoration: none;;
+	border: solid;
+	margin-left: 1em;
+	margin-bottom: .3em;
+	float: left;
+}
+
+
+.download {
+	font-family: 'futura-pt';
+	font-size: 2em;
+	padding: .5em;
+	
+}
+
+.footer-center {
+	margin-left: 2em;
+	margin-top: 1em;
+	
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* responsive */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* koniec stopki !!!!!!! */
+
+.arkady {
+	font-family: 'lombard';
+	font-size: 4.5em;
+	margin-bottom: .3em;
+	margin-top: 0;
+}
+
+
+.line3 {
+	width: 330px;
+	
+}
+
+.line4 {
+	width: 500px;	
+}
+
+.koncerty h2 {
+	font-family: 'cyrulikSharp'; 
+	font-size: 4em;
+	text-align: center;
+}
+
+
+.first-div {
+	height: 100vh;
+	background: #0c2231;
+	margin-top: -70px;
+	margin-bottom: -50px;
+	z-index: 1;
+}
+
+.first-div h1 {
+	font-family: 'cyrulikStencil';
+	font-size: 15em;
+	color: #f20c3e;
+	text-align: left;
+	margin-top: .2em;
+	margin-left: .5em;
+}
+
+.first-div p {
+	font-family: 'rewir';
+	color: #d6e9f5;
+	font-size: 1.5em;
+	text-align: left;
+	margin-top: 2em;
+	margin-left: 2.5em;
+	margin-right: 1.5em;
+}
+
+.first-div h2 {
+	font-family: 'magiel';
+	color: #d6e9f5;
+	font-size: 2.4em;
+	text-align: center;
+	margin-top: .3em;
+	
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	
+}
+.second-div {
+	
+	
+	margin-bottom: 3em;
+	z-index: 1;
+}
+
+.second-div h2 {
+	font-family: 'lombard';
+	font-size: 2.7em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.second-div h3 {
+	font-family: 'lombard';
+	font-size: 2.3em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+
+}
+
+.second-div p {
+	font-family: 'cyrulikSharp';
+	font-size: 1.5em;
+	color: black;
+	text-align: left;
+	margin-left: 2.5em;
+	margin-right: 2em;
+}
+
+.third-div {
+	height: 90vh;
+	background: #0c2231;
+	margin-top: -100px;
+	margin-bottom: -50px;
+	z-index: 1;
+}
+
+.third-div p {
+	font-family: 'cyrulikSharp';
+	font-size: 2.4em;
+	color: white;
+	text-align: left;
+	margin-left: 2.5em;
+	margin-right: 2em;
+}
+
+.fourth-div p {
+	font-family: 'rewir';
+	font-weight: 600;
+	margin: 0;
+	padding-bottom: 6em;
+	
+}
+.fourth-div h4 {
+	font-family: 'rewir';
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+
+}
+
+.red-space {
+	height: 20vh;
+	background-image: url("img/red-back.svg");
+	width: 100%;
+	position: relative;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.band h2 {
+	font-family: 'cyrulikSharp';
+	text-align: center;
+	font-size: 4em;
+	margin: 1em;
+	margin-top: 0;
+}
+
+.zbuntowana {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	/*border-bottom: 8px solid black;
+	border-top: 8px solid black;*/
+	margin-top: 0;
+	
+}
+
+
+
+.Andrzej {
+	font-family: 'cyrulikSharp';
+	margin-bottom: 0;
+}
+
+.Ignacy {
+	font-family: 'tagger';
+}
+
+.Adam {
+	font-family: 'lombard';
+}
+
+.list {
+	list-style: none;
+
+}
+
+.list li {
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid lightgrey;
+}
+
+/* .nowa-plyta {
+	width: 50%;
+	padding-left: 5em;
+} */
+
+.hanba_cover {
+	background-image: url("img/hanba_cover.jpg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  	padding: 23em;
+	overflow: hidden;
+	  
+  	
+}
+
+.hanba_cover::before {
+	
+	position: absolute;
+	z-index: -1;	
+
+}
+
+.concert {
+	background-image: url("img/Off.jpg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  	height: 650px;
+	overflow: hidden;
+	  
+  	
+}
+
+.concert::before {
+	
+	position: absolute;
+	z-index: -2;	
+
+}
+
+.author-concert {
+	
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	font-family: 'rewir';
+	font-size: 10px;
+	transform: rotate(-90deg);
+	  left: 30px;
+	  bottom: 50px;
+	  transform-origin: 0 0;
+}
+
+.teledysk {
+	background-image: url("img/teledysk.jpg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	/* margin-bottom: 50px; */
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  	padding: 23em;
+	overflow: hidden; 	
+}
+
+.teledysk::before {
+	
+	position: absolute;
+	z-index: -2;	
+}
+
+
+img {
+	width: 100%;
+}
+
+.buy {
+	width: 20%;
+	margin-top: 5%;
+	
+}
+.list {
+	list-style: none;
+}
+
+.list li {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 2px solid darkgrey;
+}
+
+.list h1 {
+	font-family: 'lombard';
+	margin-bottom: -10px;
+}
+
+.list p {
+	font-family: 'rewir';
+	margin: 0;
+}
+
+.bottom-graphic {
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.galeria {
+	height: 40vh;
+	background-image: url("img/header_galeria.svg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+	overflow: hidden;
+
+}
+
+
+
+.muzyka {
+	height: 20vh;
+	background-image: url(" ");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.space-music {
+	margin-bottom: 5em;
+}
+
+.content h2 {
+	font-family: 'cyrulikSharp';
+	font-size: 3em;
+	padding-top: .6em;
+	margin-left: .2em;
+	margin-bottom: .5em;
+	
+}
+
+
+
+.disc-description {
+	font-family: 'rewir';
+	font-size: 1em;
+	padding-bottom: .5em;
+	margin-left: .5em;
+
+}
+
+
+.bandcamp {
+	padding-top: 1.5em;
+}
+
+.disc-list {
+	list-style: none;
+	
+}
+
+.disc-list li {
+	font-family: 'cyrulikSharp';
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	
+}
+
+
+
+
+.songs-list {
+	font-family: 'rewir';
+	font-size: 1em;
+}
+
+.song-title {
+	font-family: 'cyrulikSharp';
+	margin-bottom: 5px;
+	
+	
+	
+	
+}
+
+.song-author {
+	color: grey;
+	margin-top: 0;
+}
+
+.Sutari {
+
+	color: black;
+	text-decoration: underline;
+}
+
+
+/* tabelka - koncerty */
+  
+.container-table {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+  .title-city {
+    font-family: 'cyrulikSharp';
+	font-size: 1.7em;
+	
+	
+  }
+
+  .concert-place {
+	  font-family: 'rewir';
+	  font-size: 1.1em;
+	  padding-top: .7em;
+	  padding-bottom: .7em;
+	  
+  }
+
+  .bilet-active {
+      color: white;
+      background: #d68a00;
+	  padding: .3em;
+      text-align: center;
+      font-family: 'rewir';
+  }
+
+  .bilet-free {
+	color: black;
+	padding: .3em;
+	text-align: center;
+	font-family: 'cyrulikSharp';
+	font-size: 1.5em;
+
+  }
+
+  .bilet-wkrotce {
+	color: black;
+     
+	  padding: .3em;
+      text-align: center;
+      font-family: 'rewir';
+
+  }
+
+  .bilet-bramka {
+	color: white;
+      background: black;
+	  padding: .3em;
+      text-align: center;
+      font-family: 'rewir';
+
+  }
+
+  .link-buy {
+      text-decoration: none;
+  }
+  
+  .responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .responsive-table .table-row {
+	background-color: #ffffff;
+	border-bottom: 4px solid black;
+    
+  }
+
+
+  .responsive-table .col-1 {
+    flex-basis: 30%;
+  }
+
+  .responsive-table .col-2 {
+    flex-basis: 50%;
+  }
+  
+  .responsive-table .col-3 {
+    flex-basis: 20%;
+  }
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
+   body {
+    font-size: 1em;
+      display: 100%;
+
+}
+
+header h1 {
+	font-size: 5em;
+}
+
+header a {
+	font-size: .9em;
+}
+
+
+
+
+nav {
+	background: white;
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+
+
+.socialmedia {
+	display: none;
+}
+
+}
+
+/*cd-discography slider*/
+
+
+.song {
+	display: none;
+}
+
+li {
+	cursor: pointer;
+}
+
+.active {
+	display: block;
+}
+
+
+.content {
+
+	position: fixed;
+	height: 100%;
+	width:100%;
+	left: 0;
+	right: 10px;
+	padding-left: 10px;
+	top: 0;
+	z-index:7;
+	background-color: white;
+	overflow: scroll;
+	display: none;
+}
+
+.close-cd {
+	font-family: 'rewir';
+	font-size: .9em;
+	color: white;
+	position: fixed;
+	z-index: 15;
+	background-color: #d68a00;
+	display: inline-block;
+	padding: 10px;
+	right: 10px;
+	top: 100px;
+}
+
+
+
+@media (min-width: 768px) {
+
+	.content {
+
+		
+		position: static;
+		background-color: transparent;
+		overflow: visible;
+
+	}
+
+	.close-cd {
+
+		position: static;
+	}
+}
+
+ /* tabelka - koncerty */
+
+ @media all and (max-width: 767px) {
+    
+    .responsive-table li {
+      display: block;
+    }
+    .responsive-table .col {
+      flex-basis: 100%;
+    }
+    .responsive-table .col {
+      display: flex;
+      
+    }
+    
+  }
+
+/* responsywne menu */
+
+
+
+
+  
+  
+  @media screen and (max-width: 600px) {
+  .nav-link {
+	  font-size: 1em;
+	  text-align: center;
+	  padding-top: .5em;
+	  padding-bottom: .5em;
+	  display: block;
+	}
+	.logo-pic {display:none;}
+	.social-menu {display:none;}
+	.concert {display:none;}
+	.teledysk {display:none;}
+	.bandcamp {display:none;}
+	.main-baner {padding-top: 3.7em;}
+	.disc-list {padding-inline-start: 0;}
+	.youtube iframe {
+		width: 340px;
+		height: 180px;
+		margin-bottom: 3em;}
+	.Kasia-galeria {padding-bottom: 15px;}
+	.hanba_cover2 {
+		margin-bottom: .5em;
+	}
+
+  }
+  
+ 
+  
+  
+  /*hamburger style i animacja*/
+  
+  button {
+	  outline-color: transparent;
+	  outline: none;
+  }
+  
+  .hamburger {
+	padding: 15px 15px;
+	display: block;
+	cursor: pointer;
+	transition-property: opacity, filter;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+	overflow: visible; }
+  
+	.hamburger.is-active .hamburger-inner,
+	.hamburger.is-active .hamburger-inner::before,
+	.hamburger.is-active .hamburger-inner::after {
+	  background-color: #000; }
+  
+  .hamburger-box {
+	width: 40px;
+	height: 24px;
+	display: inline-block;
+	position: relative; }
+  
+  .hamburger-inner {
+	display: block;
+	top: 50%;
+	margin-top: -2px; }
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	  width: 40px;
+	  height: 4px;
+	  background-color: #000;
+	  border-radius: 4px;
+	  position: absolute;
+	  transition-property: transform;
+	  transition-duration: 0.15s;
+	  transition-timing-function: ease; }
+	.hamburger-inner::before, .hamburger-inner::after {
+	  content: "";
+	  display: block; }
+	.hamburger-inner::before {
+	  top: -10px; }
+	.hamburger-inner::after {
+	  bottom: -10px; }
+  
+  
+  .hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .hamburger--spin .hamburger-inner::before {
+   transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
+  .hamburger--spin .hamburger-inner::after {
+   transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  
+  .hamburger--spin.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .hamburger--spin.is-active .hamburger-inner::before {
+   top: 0;
+   opacity: 0;
+   transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
+  .hamburger--spin.is-active .hamburger-inner::after {
+   bottom: 0;
+   transform: rotate(-90deg);
+   transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+  
+  @media (min-width: 768px) {
+	  .hamburger {display: none;}
+	  .navbar ul {display: block;}
+	  .navbar li {display: inline-block;}
+	  .home {display: none;}
+	  .social-menu {display: inline-block;}
+		.youtube iframe {
+			width: 340px;
+			height: 180px;
+			margin-bottom: 3em;}
+	  
+  }
+  @media (min-width: 1200px) {
+
+	.youtube iframe {
+		width: 540px;
+		height: 350px;
+		margin-bottom: 3em;
+		display: block;
+		
+	}
+
+  }
+  
+  
+  
+  /* koniec responsywnego menu */
+
+  .row {margin-right: 0; margin-left: 0}
+	
+	
+	.rel {
+		position: relative;
+	}
+
+	* {
+		scroll-behavior: smooth;
+	}
